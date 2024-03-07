@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Consumindo API de Cachorros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Consumindo API de Cachorros</h1>
+    <H2>DEFINITIVO</H2>
+    <label for="breed-select">Selecione a raça do cachorro:</label>
+    <select id="selecao-raca">
+      <option value="" disabled selected>Selecione uma raça</option>
+      <option value="akita">Akita</option>
+      <option value="dingo">Dingo</option>
+      <option value="doberman">Doberman</option>
+      <option value="shiba">Shiba</option>
+      <option value="eskimo">Husky</option>
+    </select>
+
+    <button id="btn-buscar">Pesquisar</button>
+
+    <div id="container-galeria">
+      <p id="mensagem"></p>
+      <div id="galeria"></div>
+      <div id="controles">
+        <button id="btn-anterior">Anterior</button>
+        <button id="btn-proximo">Próxima</button>
+      </div>
+    </div>
+
+    <div id="container-botoes">
+      <button id="btn-salvar">Salvar Imagem</button>
+      <button id="btn-limpar-lista">Limpar Lista</button>
+    </div>
+   
+
+    <div id="container-principal">
+      <div id="container-lista-cachorros">
+        <h2>Lista de Cachorros Salvos</h2>
+        <div id="lista-cachorros"></div>
+      </div>
+    </div>
+
+    <div class="container-video">
+      <button id="btn-reproduzir-video">Caramelo MK</button>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
